@@ -1,4 +1,6 @@
 # XRPL Dev Portal
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsphilippe%2Fxrpl-dev-portal.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsphilippe%2Fxrpl-dev-portal?ref=badge_shield)
+
 
 The [XRP Ledger Dev Portal](https://xrpl.org) is the authoritative source for XRP Ledger documentation, including the `rippled` server, RippleAPI, the Ripple Data API, and other open-source XRP Ledger software.
 
@@ -105,3 +107,7 @@ $ pybabel compile -f -d ./locale/
 If you added a new language for the first time, you need to make sure its target definition (in the `dactyl-config.yml` file) has the MO file in the `locale_file` field.
 
 After that, next time you build the site using Dactyl it should pull the updated translations!
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpsphilippe%2Fxrpl-dev-portal.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpsphilippe%2Fxrpl-dev-portal?ref=badge_large)
